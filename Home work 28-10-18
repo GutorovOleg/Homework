@@ -1,0 +1,76 @@
+/*
+//not a worked
+var lang = {
+  ru:['зеленый','красный','голубой'],
+  en:['green','red','blue']
+}
+
+for(var prop in lang){
+
+  for (var i = 0; i < lang.ru.length; i++) {
+    for (var j = 0; j < lang.en.length; j++) {
+
+    if (lang[prop][i] == lang[prop][j]) {
+   console.log (lang[prop][i] '='  lang[prop][j]);
+    }
+  }
+ }
+
+}
+
+ 
+*/
+
+/*
+
+//camel case
+
+var str = 'border-left-width';
+var a = str.replace('left','Left');
+var b = a.replace('width','Width');
+var d = b.replace (/-/g, '');
+
+
+console.log(d);
+ */
+
+
+/*
+ var str = 'bob considers beans';
+ var count = 0;
+ for (var i = 0; i < str.length; i++) {
+  if(str.charAt(i) == 'b') {
+    count += 1;
+ }
+ }
+ console.log(count);
+
+ */
+
+/*
+ var type  = prompt ('add file name', '');
+
+      var a = type.indexOf('.');
+console.log(type.substr(a+1));
+  */
+
+
+/*
+var obj = {
+  name: 'John',
+  lastname:'Doe',
+  age: 20
+}
+var name = prompt ('Type the searching property','');
+for (var prop in obj){
+  if (obj[prop] == name){
+    
+    console.log(obj[prop]);
+break;
+  }
+  else  {
+    console.log('false');
+  }
+}
+
+*/
