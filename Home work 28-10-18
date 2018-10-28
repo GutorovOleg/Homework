@@ -1,5 +1,5 @@
 /*
-//not a worked
+//doesn't work
 var lang = {
   ru:['зеленый','красный','голубой'],
   en:['green','red','blue']
