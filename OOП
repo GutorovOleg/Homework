@@ -1,0 +1,14 @@
+function Worker(name, rate,hoursWorker){ 
+this.name = name;
+this.rate = rate;
+this.hoursWorker = hoursWorker;
+this.overTimeRate = 2*this.rate;
+
+}
+Worker.prototype.countSalary = function() {
+        this.overTimeSalary = this.overTimeRate * (this.hoursWorker-160);
+        this.salary = this.overTimeSalary + this.rate * 160;
+    }
+var worker = new Worker("Alex",50,170);
+    worker.countSalary();
+console.log(worker.salary);
